@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator2</title>
+    <link rel="stylesheet" href="cal2.css" />
+    <link href="Calculator with Js\cal2.css" rel="stylesheet" />
+    <script src="Calculator with Js\cal2.js"></script>
+  </head>
+  <body>
+    
+    <h1>BASIC CALCULATOR</h1>
+    <br/>
+    <form id="myform" Name="calc">
+      <input name="display" style="width:675px;height:100px;text-align: center; background-color: blueviolet;"> <br/>
+      <input type=button value="0" onClick="calc.display.value+='0'">
+      <input type=button value="1" onclick="calc.display.value+='1'">
+      <input type=button value="2" onclick="calc.display.value+='2'">
+      <input type=button value="+" onclick="calc.display.value+='+'" style="background-color: yellowgreen;">
+       </br>
+      <input type=button value="3" onclick="calc.display.value+='3'">
+      <input type=button value="4" onclick="calc.display.value+='4'">
+      <input type=button value="5" onclick="calc.display.value+='5'">
+      <input type=button value="-" onclick="calc.display.value+='-'" style="background-color: gold;">
+       </br>
+      <input type=button value="6" onclick="calc.display.value+='6'">
+      <input type=button value="7" onclick="calc.display.value+='7'">
+      <input type=button value="8" onclick="calc.display.value+='8'">
+      <input type=button value="*" onclick="calc.display.value+='*'" style="background-color: red;">
+       </br>
+      <input type=button value="9" onclick="calc.display.value+='9'">
+      <input type=button value="C" onclick="calc.display.value=''">
+      <input type=button value="=" onclick="calc.display.value=eval(calc.display.value)">
+      <input type=button value="/" onclick="calc.display.value+='/'" style="background-color: tan;">
+      </br>
+      <input type=button value="DEL" onclick="calc.display.value=''" style="background-color: yellow;" >
+      
+      </form> 
+
+ </body>
+</html>
